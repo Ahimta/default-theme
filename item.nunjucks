@@ -25,7 +25,7 @@
           {%- endif -%}
         {%- endif -%}
 
-        {%- if item.default or item.default == 0 or item.default == false %} - default: {{ item.default }}{%- endif -%}
+        {%- if item.default or item.default == 0 or item.default == false %} - default: <span class="default">{{ item.default }}</span>{%- endif -%}
         {%- if item.repeat %} - repeat: {{ item.repeat }}{%- endif -%}
         {%- if item.type == 'string' -%}
           {%- if item.minLength or item.minLength == 0 %} - minLength: {{ item.minLength }}{%- endif -%}

@@ -134,3 +134,7 @@ pre code {
   color: #f00;
   font-style: normal;
 }
+.default {
+  color: #00f;
+  font-style: normal;
+}
